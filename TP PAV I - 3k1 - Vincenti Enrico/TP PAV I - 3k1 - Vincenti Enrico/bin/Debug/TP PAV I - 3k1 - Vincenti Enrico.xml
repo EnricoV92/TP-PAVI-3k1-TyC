@@ -1,0 +1,321 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TP PAV I - 3k1 - Vincenti Enrico
+</name>
+</assembly>
+<members>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TP_PAV_I___3k1___Vincenti_Enrico.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TP_PAV_I___3k1___Vincenti_Enrico.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.TorneosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.EquiposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.ResultadosEquiposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.TorneosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.EquiposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.ResultadosEquiposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.TorneosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.EquiposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados.ResultadosEquiposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TorneosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.EquiposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.ResultadosEquiposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.UpdateAll(TP_PAV_I___3k1___Vincenti_Enrico.reporteResultados)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteResultadosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.EquiposDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.FechasTorneoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.PartidosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.TorneosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.EquiposRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.FechasTorneoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.PartidosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.TorneosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.EquiposRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.FechasTorneoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.PartidosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1.TorneosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.EquiposTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.FechasTorneoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.PartidosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TorneosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.UpdateInsertedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.UpdateDeletedRows(TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.UpdateAll(TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.reporteTorneo1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.Torneos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.Torneos.TorneosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.Torneos.TorneosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.Torneos.TorneosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TorneosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.UpdateUpdatedRows(TP_PAV_I___3k1___Vincenti_Enrico.Torneos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.UpdateInsertedRows(TP_PAV_I___3k1___Vincenti_Enrico.Torneos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.UpdateDeletedRows(TP_PAV_I___3k1___Vincenti_Enrico.Torneos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.UpdateAll(TP_PAV_I___3k1___Vincenti_Enrico.Torneos)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

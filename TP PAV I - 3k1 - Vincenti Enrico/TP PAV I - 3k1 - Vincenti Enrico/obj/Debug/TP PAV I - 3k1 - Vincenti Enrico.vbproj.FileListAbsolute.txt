@@ -1,0 +1,22 @@
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\TP PAV I - 3k1 - Vincenti Enrico.exe.config
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\TP PAV I - 3k1 - Vincenti Enrico.exe
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\TP PAV I - 3k1 - Vincenti Enrico.pdb
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\TP PAV I - 3k1 - Vincenti Enrico.xml
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP PAV I - 3k1 - Vincenti Enrico.vbprojResolveAssemblyReference.cache
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.ABM_Jugadores.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.form_jugadores.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.Resources.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP PAV I - 3k1 - Vincenti Enrico.vbproj.GenerateResource.Cache
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP PAV I - 3k1 - Vincenti Enrico.exe
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP PAV I - 3k1 - Vincenti Enrico.xml
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP PAV I - 3k1 - Vincenti Enrico.pdb
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.ABM_Torneos.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.form_torneos.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.CrearFecha.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.Reporte.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\RdlCompile.cache
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\RdlCompile.compiled
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.Menu.resources
+C:\Users\EnricoV\Desktop\PAV 1 2017\TP PAV I - 3k1 - Vincenti Enrico\TP PAV I - 3k1 - Vincenti Enrico\obj\Debug\TP_PAV_I___3k1___Vincenti_Enrico.Reporte2.resources
