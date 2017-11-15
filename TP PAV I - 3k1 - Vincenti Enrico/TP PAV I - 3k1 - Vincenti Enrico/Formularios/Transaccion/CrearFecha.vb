@@ -12,6 +12,7 @@
         Me.TorneosTableAdapter.getTorneos(Me.Torneos._Torneos)
         cbo_torneos.SelectedValue = -1
 
+
     End Sub
 
     Private Sub btn_cargar_Click(sender As Object, e As EventArgs) Handles btn_cargar.Click
@@ -39,12 +40,21 @@
             partidos.Add(p)
         Next
 
+
         If IsDate(txt_diaFecha.Text) Then
             Dim diaFecha As DateTime = Date.Parse(Me.txt_diaFecha.Text)
-            Dim xdiaFecha As String = diaFecha.ToString("yyyy-MM-dd")
-            BDHelper.guardarFechaTorneoYPartidos(txt_nroFecha.Text, cbo_torneos.SelectedValue, xdiaFecha, partidos)
-            MessageBox.Show("Transaccion completada. Se insertaron los partidos de la correspondiente Fecha", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-            clear_components()
+            Dim fechaDesde As DateTime = Date.Parse(Me.txt_fechaDesde.Text)
+            Dim fechaHasta As DateTime = Date.Parse(Me.txt_fechaHasta.Text)
+
+            If (Date.Compare(diaFecha, fechaHasta) < 0 And Date.Compare(fechaDesde, diaFecha) < 0) Then
+
+                Dim xdiaFecha As String = diaFecha.ToString("yyyy-MM-dd")
+                BDHelper.guardarFechaTorneoYPartidos(txt_nroFecha.Text, cbo_torneos.SelectedValue, xdiaFecha, partidos)
+                MessageBox.Show("Transaccion completada. Se insertaron los partidos de la correspondiente Fecha", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+                clear_components()
+            Else
+                MessageBox.Show("Fecha Fuera de Periodo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+            End If
         Else
             MessageBox.Show("no paso el formato de fecha", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         End If
@@ -67,6 +77,17 @@
 
         llenarCombo(cbo_equipo1, BDHelper.getDBHelper.ConsultarSQLConParametros("SELECT * from EquiposxTorneos ET JOIN Equipos E ON ET.id_equipo = E.id_equipo WHERE id_torneo =@param1 ", filters.ToArray), "nombre_equipo", "id_equipo")
         llenarCombo(cbo_equipo2, BDHelper.getDBHelper.ConsultarSQLConParametros("SELECT * from EquiposxTorneos ET JOIN Equipos E ON ET.id_equipo = E.id_equipo WHERE id_torneo =@param1 ", filters.ToArray), "nombre_equipo", "id_equipo")
+
+        Dim sql As String = "select T.fechaDesde, T.fechaHasta from Torneos T where T.id_torneo = @param1"
+
+
+        Dim fechaDesde = BDHelper.getDBHelper.ConsultarSQLConParametros(sql, filters.ToArray).Rows(0).Item("fechaDesde").ToString
+        Dim xfechaD = Date.Parse(fechaDesde)
+        txt_fechaDesde.Text = xfechaD.ToString("dd/MM/yyyy")
+
+        Dim fechaHasta = BDHelper.getDBHelper.ConsultarSQLConParametros(sql, filters.ToArray).Rows(0).Item("fechaHasta").ToString
+        Dim xfechaH = Date.Parse(fechaHasta)
+        txt_fechaHasta.Text = xfechaH.ToString("dd/MM/yyyy")
 
 
     End Sub

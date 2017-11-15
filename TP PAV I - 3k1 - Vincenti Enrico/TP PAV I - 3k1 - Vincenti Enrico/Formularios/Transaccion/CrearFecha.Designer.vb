@@ -49,8 +49,8 @@ Partial Class CrearFecha
         Me.Label5 = New System.Windows.Forms.Label()
         Me.TorneosTableAdapter = New TP_PAV_I___3k1___Vincenti_Enrico.TorneosTableAdapters.TorneosTableAdapter()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
-        Me.MaskedTextBox2 = New System.Windows.Forms.MaskedTextBox()
+        Me.txt_fechaDesde = New System.Windows.Forms.MaskedTextBox()
+        Me.txt_fechaHasta = New System.Windows.Forms.MaskedTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
@@ -268,23 +268,23 @@ Partial Class CrearFecha
         Me.Button1.Text = "Salir"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'MaskedTextBox1
+        'txt_fechaDesde
         '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(304, 30)
-        Me.MaskedTextBox1.Mask = "00/00/0000"
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(105, 20)
-        Me.MaskedTextBox1.TabIndex = 13
-        Me.MaskedTextBox1.ValidatingType = GetType(Date)
+        Me.txt_fechaDesde.Location = New System.Drawing.Point(304, 30)
+        Me.txt_fechaDesde.Mask = "00/00/0000"
+        Me.txt_fechaDesde.Name = "txt_fechaDesde"
+        Me.txt_fechaDesde.Size = New System.Drawing.Size(105, 20)
+        Me.txt_fechaDesde.TabIndex = 13
+        Me.txt_fechaDesde.ValidatingType = GetType(Date)
         '
-        'MaskedTextBox2
+        'txt_fechaHasta
         '
-        Me.MaskedTextBox2.Location = New System.Drawing.Point(424, 31)
-        Me.MaskedTextBox2.Mask = "00/00/0000"
-        Me.MaskedTextBox2.Name = "MaskedTextBox2"
-        Me.MaskedTextBox2.Size = New System.Drawing.Size(105, 20)
-        Me.MaskedTextBox2.TabIndex = 14
-        Me.MaskedTextBox2.ValidatingType = GetType(Date)
+        Me.txt_fechaHasta.Location = New System.Drawing.Point(424, 31)
+        Me.txt_fechaHasta.Mask = "00/00/0000"
+        Me.txt_fechaHasta.Name = "txt_fechaHasta"
+        Me.txt_fechaHasta.Size = New System.Drawing.Size(105, 20)
+        Me.txt_fechaHasta.TabIndex = 14
+        Me.txt_fechaHasta.ValidatingType = GetType(Date)
         '
         'Label6
         '
@@ -311,8 +311,8 @@ Partial Class CrearFecha
         Me.ClientSize = New System.Drawing.Size(636, 558)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.MaskedTextBox2)
-        Me.Controls.Add(Me.MaskedTextBox1)
+        Me.Controls.Add(Me.txt_fechaHasta)
+        Me.Controls.Add(Me.txt_fechaDesde)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.cbo_torneos)
@@ -362,8 +362,8 @@ Partial Class CrearFecha
     Friend WithEvents TorneosTableAdapter As TorneosTableAdapters.TorneosTableAdapter
     Friend WithEvents Button1 As Button
     Friend WithEvents TorneosBindingSource1 As BindingSource
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
-    Friend WithEvents MaskedTextBox2 As MaskedTextBox
+    Friend WithEvents txt_fechaDesde As MaskedTextBox
+    Friend WithEvents txt_fechaHasta As MaskedTextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label7 As Label
 End Class
