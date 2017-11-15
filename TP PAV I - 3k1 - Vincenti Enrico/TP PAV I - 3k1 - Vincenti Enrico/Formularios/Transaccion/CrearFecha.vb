@@ -16,8 +16,13 @@
     End Sub
 
     Private Sub btn_cargar_Click(sender As Object, e As EventArgs) Handles btn_cargar.Click
-        dgv_partidos.Rows.Add(New String() {cbo_equipo1.Text, cbo_equipo2.Text, txt_cancha.Text.ToString, cbo_equipo1.SelectedValue.ToString,
-                              cbo_equipo2.SelectedValue.ToString})
+        If (cbo_equipo1.Text IsNot cbo_equipo1.Text) Then
+            dgv_partidos.Rows.Add(New String() {cbo_equipo1.Text, cbo_equipo2.Text, txt_cancha.Text.ToString, cbo_equipo1.SelectedValue.ToString,
+                                  cbo_equipo2.SelectedValue.ToString})
+        Else
+            MessageBox.Show("Los equipos son iguales", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        End If
+
     End Sub
 
     Private Sub clear_components()
